@@ -580,7 +580,7 @@ background: lightblue;
    </div>
 <div class="mdimage">
 <h2>Okflip India Pvt. ltd</h2>
- <img src="C:\Users\a2z\Desktop\Bussiness 2\image\Dr. J. R. Meena (1).jpg" alt="MD Image">
+ <img src="(https://okflip.com/UI/images/Dr.%20J.%20R.%20Meena%20(1).jpg)" alt="MD Image">
 
    <div class="buttons">
       <button><a href="tel:+919462431760">📞 Call</a></button>
