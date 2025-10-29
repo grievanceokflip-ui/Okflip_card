@@ -840,9 +840,11 @@ background: lightblue;
     <a href="#enquiry"><i class="fa-solid fa-envelope"></i><span>Enquiry</span></a>
     <a href="#social"><i class="fa-solid fa-share"></i><span>Share</span></a>     
 </div>
-<footer style="text-align:center; padding:2px; background:lightblue; color:white; font-size:10px;">
-  <p>&copy; 2025 <strong>OKFLIP India Pvt. Ltd.</strong> | All Rights Reserved.</p>
-  <p>Designed with ❤️ by <a href="#" style="color:#00bcd4; text-decoration:none;">OKFLIP Team</a></p>
+<footer style="background-color:#a7dbe7; text-align:center; padding:15px; border-radius:8px;">
+  <p>© 2025 <strong>OKFLIP India Pvt. Ltd.</strong> | All Rights Reserved.</p>
+  <p>Designed with ❤️ by <a href="#" style="text-decoration:none; color:#007b8f; font-weight:bold;">OKFLIP Team</a></p>
 </footer>
+
 </body>
 </html>
+
