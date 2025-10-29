@@ -379,7 +379,7 @@ background: lightblue;
     .details span {
         font-weight: bold;
     }
-   img {
+   .img {
         max-width: 100%;
         margin-top: 5px;
     }
