@@ -826,6 +826,7 @@ background: lightblue;
 <footer style="text-align:center; padding:2px; background:lightblue; color:white; font-size:10px;">
   <p>&copy; 2025 <strong>OKFLIP India Pvt. Ltd.</strong> | All Rights Reserved.</p>
   <p>Designed with ❤️ by <a href="#" style="color:#00bcd4; text-decoration:none;">OKFLIP Team</a></p>
+</div>
 </footer>
 </body>
 </html>
