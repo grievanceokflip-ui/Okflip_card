@@ -181,7 +181,8 @@ body {
     background: #1565c0;
   }
  .payment-container {
-        max-width: 400px;     
+        max-width: 400px;
+        
         padding: 25px;
         border-radius: 8px;
         box-shadow: 0 2px 8px rgba(0,0,0,0);
@@ -195,7 +196,7 @@ body {
     .details span {
         font-weight: bold;
     }
-   .img {
+   img {
         max-width: 100%;
         margin-top: 5px;
     }
@@ -315,6 +316,7 @@ body {
     text-decoration: none;
     color: inherit;
   }
+
     /* 📸 Gallery Section */
     .gallery {
       background: lightblue;
@@ -379,7 +381,7 @@ background: lightblue;
     .details span {
         font-weight: bold;
     }
-   .img {
+   img {
         max-width: 100%;
         margin-top: 5px;
     }
@@ -570,6 +572,7 @@ background: lightblue;
 <body>
   <div class="card" id="card">
     <div class="views">👁️ Views: 328</div>
+
     <div class="logo">
       <img src="C:\Users\a2z\Desktop\New folder\image\logo.png" alt="Logo">
 	<p>Life, Nothing Else</p>
@@ -577,7 +580,7 @@ background: lightblue;
    </div>
 <div class="mdimage">
 <h2>Okflip India Pvt. ltd</h2>
- <img src="(https://okflip.com/UI/images/Dr.%20J.%20R.%20Meena%20(1).jpg)" alt="MD Image">
+ <img src="C:\Users\a2z\Desktop\Bussiness 2\image\Dr. J. R. Meena (1).jpg" alt="MD Image">
 
    <div class="buttons">
       <button><a href="tel:+919462431760">📞 Call</a></button>
@@ -585,6 +588,7 @@ background: lightblue;
       <button><a href="https://maps.google.com">📍 Direction</a></button>
       <button><a href="mailto:fssindia2015@gmail.com">✉️ Mail</a></button>
     </div>
+
     <div class="info">
      <a href="https://www.google.com/maps/place/OKFLIP+INDIA+PVT+LTD+,Head+Office-Jaipur/@26.9210918,75.7507671,17z/data=!3m1!4b1!4m6!3m5!1s0x396db30061cadadb:0x9fd373f1b18e1c2d!8m2!3d26.921087!4d75.753342!16s%2Fg%2F11y3jfls3z?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D"> 📍LG-09, Sankalp Tower,Jharkhand Mod,Vaishali Nagar, Jaipur-302021 (Raj.) India</a><br>
  <a href="https://okflip.com/UI/Default.aspx"> 🌐 https://okflip.com<br></a>
@@ -595,7 +599,8 @@ background: lightblue;
       <button>💾 Save Card</button>
     </div>
 </div>
- <!-- About Us -->
+
+    <!-- About Us -->
     <div class="about" id="about">
     <h3>About</h3>
     <p><strong>Company Name:</strong> Okflip India Pvt Ltd</p>
@@ -627,6 +632,7 @@ background: lightblue;
     <div class="header">
       <h3>Okflip - Top 10 Products</h3>
      </div>
+
     <div id="grid" class="grid" aria-live="polite"></div>
   </div>
 
@@ -735,17 +741,21 @@ background: lightblue;
     // render
     products.forEach(p=> grid.appendChild(createCard(p)));
   </script>
+
+
 <!-- 📸 Gallery Section -->
-<div class="gallery" id="gallery">
+    <div class="gallery" id="gallery">
       <h3>My Gallery</h3>
       <div class="gallery-grid">
  <img src="C:\Users\a2z\Desktop\Bussiness 2\image\OKFLIP INCORPORATION_page-0001.jpg" alt="Gallery 4">
         <img src="C:\Users\a2z\Desktop\Bussiness 2\image\CERT - OKFLIP INDIA - ISO 9001 (1) (1)_page-0001.jpg" alt="Gallery 1">
         <img src="C:\Users\a2z\Desktop\Bussiness 2\image\I START_page-0001.jpg" alt="Gallery 2">
         <img src="C:\Users\a2z\Desktop\Bussiness 2\image\STARTUP CERTIFICATE (2) (1)_page-0001.jpg" alt="Gallery 3">
-         <img src="C:\Users\a2z\AppData\Local\Temp\0e8e4d7d-032c-40ed-bb06-667a15450a80_ilovepdf_pages-to-jpg (1).zip.a80\Food Safety and Standards_page-0001.jpg" alt="Gallery 5">
+        
+        <img src="C:\Users\a2z\AppData\Local\Temp\0e8e4d7d-032c-40ed-bb06-667a15450a80_ilovepdf_pages-to-jpg (1).zip.a80\Food Safety and Standards_page-0001.jpg" alt="Gallery 5">
        
-  </div>
+      
+      </div>
     </div>
 <!-- Payment -->
    <div class="payment-container" id="payment">
@@ -761,6 +771,7 @@ background: lightblue;
     <!-- Video -->
     <div class="video" id="video">
       <h3>Watch Video</h3>
+  
     <iframe width="560" height="315" src="https://www.youtube.com/embed/z5sv-rYEqbA?si=3idg6FMM-bcsQ6Tk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/k7EJBZSzQiE?si=PnUpsxGKm02-QjSh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
@@ -771,7 +782,8 @@ background: lightblue;
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wjUzW1k6d7U?si=Y_K2MWHQ5Kgg7VG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wjUzW1k6d7U?si=Y_K2MWHQ5Kgg7VG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wjUzW1k6d7U?si=Y_K2MWHQ5Kgg7VG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
     </div>
 
     <!-- Feedback Section -->
@@ -780,13 +792,17 @@ background: lightblue;
   <form action="submit-feedback.php" method="post">
     <label for="name">Your Name</label>
     <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
     <label for="email">Your Email</label>
     <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
     <label for="message">Your Feedback</label>
     <textarea id="message" name="message" rows="4" placeholder="Write your feedback here..." required></textarea>
+    
     <button type="submit">Send Feedback</button>
   </form>
 </div>
+
     <!-- Enquiry -->
     <div class="enquiry" id="enquiry">
       <h3>Enquiry</h3>
@@ -797,6 +813,7 @@ background: lightblue;
         <button type="submit">Send Enquiry</button>
       </form>
     </div>
+
     <!-- Share -->
     <div class="social" id="social">
       <a href="https://www.facebook.com/people/Okflip-India-Pvt-Ltd/61559059526350/?mibextid=wwXIfr&rdid=SI2F3ruU4k3elErt&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19sgbTGkEh%2F%3Fmibextid%3DwwXIfr" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
@@ -826,8 +843,6 @@ background: lightblue;
 <footer style="text-align:center; padding:2px; background:lightblue; color:white; font-size:10px;">
   <p>&copy; 2025 <strong>OKFLIP India Pvt. Ltd.</strong> | All Rights Reserved.</p>
   <p>Designed with ❤️ by <a href="#" style="color:#00bcd4; text-decoration:none;">OKFLIP Team</a></p>
-</div>
 </footer>
 </body>
 </html>
-                                                                                                                                                                                                                                                                                                                  
